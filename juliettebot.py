@@ -10,8 +10,8 @@ from gtts import gTTS
 from pydub import AudioSegment
 
 # --- Configuración general ---
-TELEGRAM_TOKEN = "7640233763:AAHHmh4eX6rsXr5SzA-9T3nJ-Xq0woRpEHU"
-OPENAI_API_KEY = "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"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 USUARIO_AUTORIZADO = 5857715132
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
