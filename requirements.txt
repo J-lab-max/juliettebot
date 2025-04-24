@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+openai
+gTTS
+pydub
+SpeechRecognition
+ffmpeg-python
